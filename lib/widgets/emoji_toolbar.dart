@@ -1,6 +1,6 @@
 import 'package:emojis/emoji.dart';
 import 'package:flutter/material.dart';
-import 'package:twitts_emoji/widgets/clickable_emoji.dart';
+import 'package:tweets_and_emojies/widgets/clickable_emoji.dart';
 
 class EmojiToolbar extends StatelessWidget {
   const EmojiToolbar({Key? key}) : super(key: key);

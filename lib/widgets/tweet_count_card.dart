@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:twitts_emoji/models/view_table.dart';
+import 'package:tweets_and_emojies/models/view_table.dart';
 
 class TweetCountCard extends StatelessWidget {
   const TweetCountCard({Key? key, required this.viewTableListner})

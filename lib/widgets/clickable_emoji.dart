@@ -1,9 +1,9 @@
 import 'package:emojis/emoji.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:twitts_emoji/cubit/expand_cubit.dart';
-import 'package:twitts_emoji/models/emojies_table.dart';
-import 'package:twitts_emoji/models/view_table.dart';
+import 'package:tweets_and_emojies/cubit/expand_cubit.dart';
+import 'package:tweets_and_emojies/models/emojies_table.dart';
+import 'package:tweets_and_emojies/models/view_table.dart';
 
 class ClickableEmoji extends StatelessWidget {
   const ClickableEmoji({Key? key, required this.emoji}) : super(key: key);

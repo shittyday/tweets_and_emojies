@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:twitts_emoji/models/view_table.dart';
+import 'package:tweets_and_emojies/models/view_table.dart';
 
 abstract class EmojiState extends Equatable {
   const EmojiState();

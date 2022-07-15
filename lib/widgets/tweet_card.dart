@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:twitts_emoji/cubit/emoji_cubit.dart';
-import 'package:twitts_emoji/cubit/emoji_state.dart';
-import 'package:twitts_emoji/models/view_table.dart';
+import 'package:tweets_and_emojies/cubit/emoji_cubit.dart';
+import 'package:tweets_and_emojies/cubit/emoji_state.dart';
+import 'package:tweets_and_emojies/models/view_table.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:twitts_emoji/repository/repository.dart';
-import 'package:twitts_emoji/widgets/tweer_error_card.dart';
-import 'package:twitts_emoji/widgets/tweet_card_default.dart';
-import 'package:twitts_emoji/widgets/tweet_count_inherited.dart';
+import 'package:tweets_and_emojies/repository/repository.dart';
+import 'package:tweets_and_emojies/widgets/tweer_error_card.dart';
+import 'package:tweets_and_emojies/widgets/tweet_card_default.dart';
+import 'package:tweets_and_emojies/widgets/tweet_count_inherited.dart';
 
 class TweetCard extends StatefulWidget {
   const TweetCard({Key? key, required this.table}) : super(key: key);

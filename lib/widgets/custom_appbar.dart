@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:twitts_emoji/cubit/expand_cubit.dart';
+import 'package:tweets_and_emojies/cubit/expand_cubit.dart';
 
 import 'emoji_toolbar.dart';
 

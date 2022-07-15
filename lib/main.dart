@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:twitts_emoji/cubit/expand_cubit.dart';
-import 'package:twitts_emoji/home.dart';
+import 'package:tweets_and_emojies/cubit/expand_cubit.dart';
+import 'package:tweets_and_emojies/home.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Twitters emoji',
+      title: 'Tweets and emojies',
       home: MultiBlocProvider(providers: [
         BlocProvider(create: (_) => ExpandCubit()),
       ], child: const Home()),

@@ -1,5 +1,5 @@
-import 'package:twitts_emoji/models/emojies_table.dart';
-import 'package:twitts_emoji/models/tweet.dart';
+import 'package:tweets_and_emojies/models/emojies_table.dart';
+import 'package:tweets_and_emojies/models/tweet.dart';
 import 'package:equatable/equatable.dart';
 
 class ViewTable extends Equatable {

@@ -4,10 +4,10 @@ import 'dart:io' show Directory, Platform;
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:twitts_emoji/common/config.dart';
-import 'package:twitts_emoji/models/emojies_table.dart';
-import 'package:twitts_emoji/models/tweet.dart';
-import 'package:twitts_emoji/models/view_table.dart';
+import 'package:tweets_and_emojies/common/config.dart';
+import 'package:tweets_and_emojies/models/emojies_table.dart';
+import 'package:tweets_and_emojies/models/tweet.dart';
+import 'package:tweets_and_emojies/models/view_table.dart';
 
 /// only IOS or ANDROID
 class Repositry {

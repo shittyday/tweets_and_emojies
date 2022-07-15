@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:twitts_emoji/repository/repository.dart';
-import 'package:twitts_emoji/widgets/custom_appbar.dart';
-import 'package:twitts_emoji/widgets/tweet_count_card.dart';
-import 'package:twitts_emoji/widgets/tweet_count_inherited.dart';
+import 'package:tweets_and_emojies/repository/repository.dart';
+import 'package:tweets_and_emojies/widgets/custom_appbar.dart';
+import 'package:tweets_and_emojies/widgets/tweet_count_card.dart';
+import 'package:tweets_and_emojies/widgets/tweet_count_inherited.dart';
 
 import 'models/view_table.dart';
 import 'widgets/tweet_card.dart';

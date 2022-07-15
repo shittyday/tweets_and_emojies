@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:twitts_emoji/models/view_table.dart';
+import 'package:tweets_and_emojies/models/view_table.dart';
 
 class ExpandState extends Equatable {
   const ExpandState({required this.expanded, this.table});

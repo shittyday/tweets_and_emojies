@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:twitts_emoji/models/view_table.dart';
+import 'package:tweets_and_emojies/models/view_table.dart';
 
 /// Класс который вниз по дереву проталкивает ValueNotifier
 ///
