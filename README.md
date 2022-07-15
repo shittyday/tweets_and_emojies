@@ -6,7 +6,7 @@ Very cool app
 
 ## Getting Started
 
-Read before check it.
+## Read before check it.
 
 Structure of project:
     - lib
