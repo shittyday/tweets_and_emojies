@@ -9,6 +9,9 @@ Very cool app
 ## Read before check it.
 
 Structure of project:
+- assets
+    - fonts
+        - Nunito.ttf # font
 - lib
     - common
         - config.dart # init string for sql
